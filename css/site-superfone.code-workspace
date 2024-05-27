@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../Downloads/Arquivos_Imagens"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "site-superfone"
+  }
+}

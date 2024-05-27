@@ -1,0 +1,19 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "article picture"
+    "footer picture ";
+  width: 80%;
+  min-width: 700px;
+  margin: 25px auto;
+}
+header {
+  grid-area: header;
+  height: 40px;
+  display: flex;
+}
+nav {
+  flex-grow: 1;
+}

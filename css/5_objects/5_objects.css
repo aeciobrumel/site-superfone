@@ -1,0 +1,38 @@
+.navigation > ul > li {
+  display: inline-block;
+}
+
+.navigation > ul > li > a {
+  text-decoration: none;
+  color: var(--text-color-menu);
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 5px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.navigation > ul > li > a:hover {
+  color: var(--text-color-menu-hover);
+  border-bottom: 1px solid var(--text-color-menu-hover);
+  border-top: 1px solid var(--text-color-menu-hover);
+  color: var(--text-color-menu-hover);
+  padding: 10px 15px;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  border-radius: 23px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f4891f;
+  margin-left: 5px;
+  box-shadow: 3px 3px px 0 black;
+}
+.button > img {
+  height: 20px;
+  vertical-align: middle;
+}

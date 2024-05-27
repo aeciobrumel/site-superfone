@@ -1,0 +1,11 @@
+.btn-bag {
+  background-color: #f4891f !important;
+  color: white !important;
+}
+.btn-login {
+  background-color: #488cf5 !important;
+  color: white !important;
+}
+.button:hover {
+  background-color: var(--text-color-menu-hover);
+}

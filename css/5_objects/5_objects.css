@@ -36,3 +36,57 @@
   height: 20px;
   vertical-align: middle;
 }
+.article > span {
+  width: 444px;
+  height: 343px;
+  opacity: 0.35;
+  font-size: 288px;
+  font-weight: bold;
+  letter-spacing: 80px;
+  position: absolute;
+  color: #dbdbdb;
+  text-align: center;
+  z-index: -1;
+  margin-top: 130px;
+}
+.article > h1 {
+  width: 504px;
+  height: 283px;
+  font-size: 54px;
+  font-weight: bold;
+  text-align: center;
+  color: #488cf5;
+  margin-top: 180px;
+}
+.article > h2 {
+  width: 512px;
+  height: 90px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #adadad;
+  margin-top: 30px;
+}
+.send-message {
+  width: 404px;
+  height: 51px;
+  margin: 22.2px 106px 249px;
+  padding: 8px 16px 8px 19px;
+  border-radius: 26px;
+  box-shadow: 3px 3px 1.5px 0;
+  background-color: #fff;
+}
+.send-message > i > img {
+  padding-left: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.send-message > input {
+  padding: 18px 10px;
+  border: none;
+  width: 270px;
+}
+.footer > small {
+  color: #adadad;
+}

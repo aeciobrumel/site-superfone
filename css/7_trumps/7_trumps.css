@@ -9,3 +9,8 @@
 .button:hover {
   background-color: var(--text-color-menu-hover);
 }
+.btn-send {
+  background-color: #488cf5 !important;
+  color: white !important;
+  width: auto !important;
+}

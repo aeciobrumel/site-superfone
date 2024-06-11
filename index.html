@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <style></style>
     <title>Superfone</title>
   </head>
   <body>
@@ -32,28 +31,30 @@
             <li><a href="">Galeria</a></li>
             <li><a href="">Informações</a></li>
             <li><a href="">Suporte</a></li>
+            <li><a href="" class="item-menu-responsive">Sacola</a></li>
+            <li><a href="" class="item-menu-responsive">Login</a></li>
           </ul>
         </nav>
 
-        <button class="button btn-bag">
+        <button class="btn-bag">
           Sacola
           <img
             src="Arquivos_Imagens/arquivos das aulas/shopping-cart.png"
             alt=""
           />
         </button>
-        <button class="button btn-login">
+        <button class="btn-login">
           Login
           <img src="Arquivos_Imagens/arquivos das aulas/user.png" alt="" />
         </button>
+
         <div class="menu-toggle" id="btn-menu-toggle">
-          <img src="./Arquivos_Imagens/arquivos das aulas/" alt="" />
+          <img src="./Arquivos_Imagens/arquivos das aulas/menu.png" alt="" />
         </div>
       </header>
 
       <article class="article">
         <span> B3 </span>
-
         <h1>Super Fone Extrema Qualidade de Som Top</h1>
         <h2>
           Você irá se surpreender com a qualidade de som dese fone sem fio.
@@ -65,9 +66,10 @@
             ><img
               src="./Arquivos_Imagens/arquivos das aulas/envelope.png"
               alt="icone de uma carta"
-          /></i>
+            />
+          </i>
           <input type="email" placeholder="Escreva seu E-mail" />
-          <button class="btn-send button">ENVIAR</button>
+          <button class="btn-send">ENVIAR</button>
         </div>
       </article>
 
@@ -77,10 +79,12 @@
           alt="foto fone de ouvido"
         />
       </picture>
+
       <footer class="footer">
         <small>&copy; powered by Aécio Brumel</small>
       </footer>
     </section>
+
     <script>
       function toggleMenu() {
         document.querySelector("nav").classList.toggle("active");

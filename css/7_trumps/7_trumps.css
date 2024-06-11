@@ -1,18 +1,18 @@
 .btn-bag {
-  background-color: #f4891f !important;
-  color: white !important;
-}
-.btn-login {
   background-color: #488cf5 !important;
-  color: white !important;
+  color: #fff !important;
+  width: 150px;
 }
-.button:hover {
-  background-color: var(--text-color-menu-hover);
+
+.btn-login {
+  background-color: #f4891f !important;
+  color: #fff !important;
+  width: 150px;
 }
+
 .btn-send {
   background-color: #488cf5 !important;
   color: white !important;
-  width: auto !important;
 }
 .menu-toggle {
   height: 40px;
@@ -21,11 +21,15 @@
   right: 15px;
   display: block;
   cursor: pointer;
+  visibility: hidden;
 }
 .menu-toggle > img {
   height: 40px;
   width: 40px;
 }
-.menu-toggle > img :hover {
+.menu-toggle > img:hover {
   transform: scale(1.2);
+}
+.item-menu-responsive {
+  visibility: hidden;
 }

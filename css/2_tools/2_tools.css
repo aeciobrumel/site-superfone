@@ -1,9 +1,12 @@
 @media only screen and (max-width: 550px) {
+  body {
+    overflow-x: hidden !important;
+  }
   .brand > img {
     margin-left: 15px;
   }
-  btn-bag,
-  .btn-logn {
+  .btn-bag,
+  .btn-login {
     display: none;
   }
   .picture {
@@ -11,23 +14,35 @@
     left: 0;
     top: 0;
     z-index: -1;
-    opacity: -5;
+    opacity: 0.5;
   }
 
   h2 {
     color: #000 !important;
   }
   .navigation {
+    position: absolute;
     width: 100%;
     top: 80px;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 10px);
     background-color: #6066f2;
     z-index: 10;
+    left: -100%;
+    transition: all 0.3 ease;
+    -webkit-transition: all 0.3 ease;
+  }
+  .navigation.active {
+    left: 0;
+    transition: all 0.3 ease;
+    -webkit-transition: all 0.3 ease;
   }
   .navigation > ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .navigation > ul > li {
+    padding: 30px 0;
   }
   .navigation > ul > li > a {
     color: white !important;
@@ -36,5 +51,27 @@
   }
   .navigation > ul > li > a:hover {
     color: #f4891f !important;
+  }
+  .menu-toggle {
+    visibility: visible !important;
+  }
+
+  .item-menu-responsive {
+    visibility: visible !important;
+  }
+  .send-message {
+    width: 404px;
+    height: 51px;
+    margin: 50.2px 206px 49px 51px !important;
+    padding: 8px 16px 8px 19px;
+    border-radius: 26px;
+    box-shadow: 3px 3px 1.5px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 3px 3px 1.5px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+  }
+  .footer {
+    position: absolute;
+    left: 10px;
+    bottom: -200px;
   }
 }

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 550px) {
+  .brand > img {
+    margin-left: 15px;
+  }
+  btn-bag,
+  .btn-logn {
+    display: none;
+  }
+  .picture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: -5;
+  }
+
+  h2 {
+    color: #000 !important;
+  }
+  .navigation {
+    width: 100%;
+    top: 80px;
+    height: calc(100vh - 80px);
+    background-color: #6066f2;
+    z-index: 10;
+  }
+  .navigation > ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navigation > ul > li > a {
+    color: white !important;
+    border: none !important;
+    font-size: 25px !important;
+  }
+  .navigation > ul > li > a:hover {
+    color: #f4891f !important;
+  }
+}

@@ -46,6 +46,9 @@
           Login
           <img src="Arquivos_Imagens/arquivos das aulas/user.png" alt="" />
         </button>
+        <div class="menu-toggle" id="btn-menu-toggle">
+          <img src="./Arquivos_Imagens/arquivos das aulas/" alt="" />
+        </div>
       </header>
 
       <article class="article">
@@ -78,5 +81,13 @@
         <small>&copy; powered by Aécio Brumel</small>
       </footer>
     </section>
+    <script>
+      function toggleMenu() {
+        document.querySelector("nav").classList.toggle("active");
+      }
+      document
+        .querySelector("#btn-menu-toggle")
+        .addEventListener("click", toggleMenu);
+    </script>
   </body>
 </html>
